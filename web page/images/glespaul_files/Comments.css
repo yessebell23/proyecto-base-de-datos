@@ -1,0 +1,503 @@
+/* @override http://webvirtual:8080/CMSTemplates/Gibson/Stylesheets/Product/Comments.css */
+
+/* @override http://webvirtual:8080/CMSTemplates/Gibson/Stylesheets/Product/Comments.css */
+
+/* @override http://webvirtual:8080/CMSTemplates/Gibson/Stylesheets/Product/Comments.css */
+
+/* @override http://webvirtual:8080/CMSTemplates/Gibson/Stylesheets/Product/Comments.css */
+
+/* @override http://webvirtual:8080/CMSTemplates/Gibson/Stylesheets/Product/Comments.css */
+
+/* @override http://webvirtual:8080/CMSTemplates/Gibson/Stylesheets/Product/Comments.css */
+
+#Footer span.comments-rating-average
+{
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	padding: 4px 6px 4px 6px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#Footer div.comments-rating-wrapper
+{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: 20000;
+	color: #000000;
+	padding: 0px 10px 19px 0px;
+	float: left;
+	width: auto;
+}
+
+#section-user-comments
+{
+      font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+      font-size: 11px !important;
+      /*width: 990px;*/
+      margin: auto;
+      margin-top: 10px;
+}
+#section-user-comments .control-wrapper 
+{
+	width: 100%;
+	border-top: solid 1px #cacaca;
+	margin-bottom: 5px;
+	padding: 5px 0px 5px 0px;
+	clear: both;
+}
+
+#section-user-comments h2
+{
+	color: #000000;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 0px 5px 0px;
+	text-transform: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#section-user-comments .add-comments a:link
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#section-user-comments .CommentInput
+{
+	float: left;
+	margin: 5px 0px 10px 0px;
+	width: 450px;
+	clear: left;
+}
+
+#section-user-comments input{
+	margin: 0px 5px 0px 5px;
+}
+
+#section-user-comments .text-input
+{
+	float: left;
+	clear: none;
+	width: 120px;
+}
+
+#section-user-comments .label-author-anonymous,
+#section-user-comments .label-rating
+{
+	float: left;
+	vertical-align: text-bottom;
+	width: 125px;
+	clear: none;
+}
+#section-user-comments .input-rating 
+{
+	float: left;
+	clear: none;
+}
+#section-user-comments .rating-item-average 
+{
+	border: solid 1px #d2d2d2;
+	width: 45px;
+	float: right;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 11px;
+}
+#section-user-comments .label-error-message
+{
+	float: left;
+	color: Red;
+}
+
+/*-----------------------------------------------	
+	Any captcha class references are found in the
+	captcha.ascx control and not in the .aspx page
+	that the captcha control is placed on.
+	Leave any captcha styles in the screen.css
+	page.
+-----------------------------------------------*/
+#section-user-comments div.comment-wrapper,
+#section-user-comments div.comment-wrapper-reply
+{
+      width: 755px;
+      margin-top: 5px;
+      color: #333333;
+      border: 1px solid #ddd;
+	  background-color: #f9f9f9;
+      padding: 12px 7px 7px 12px;
+      clear: left;
+}
+#section-user-comments div.comment-wrapper-reply
+{
+      width: 735px;
+      margin-left: 20px;
+      color: #333333;
+      background-color: #f9f9f9;
+      border: solid 1px #e8e6e6;
+}
+#section-user-comments #user-comment-form div.comment-add-form
+{
+	clear: both;
+    border: 1px none #cacaca;
+    /*width: 755px;*/
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+	border-top: 1px solid #c0c0c0;
+	display: inline-table;
+}
+.CommentInput .captcha
+{
+	float: left;
+	margin: 0px 0px 5px 0px;
+	position: relative;
+	clear: left;
+}
+
+.captcha .captcha-textbox
+{
+	width: 75px;
+	float: left;
+	margin: 0px;
+}
+
+#section-user-comments #user-comment-form td.table-cell-prompt,
+#section-user-comments #user-comment-form td.table-header
+{
+	font-size: 12px;
+	float: left;
+}
+#section-user-comments #user-comment-form .table-row,
+#section-user-comments #user-comment-form .table-cell,
+#section-user-comments #user-comment-form .table-header
+{
+      padding: 2px;
+}
+#section-user-comments #user-comment-form .table-cell-prompt
+{
+	padding: 2px;
+	font-weight: bold;
+}
+#section-user-comments .comment-header-wrapper
+{
+    width: 100%;
+    margin-bottom: 5px;
+    clear: both;
+	float: left;
+}
+#section-user-comments .comment-header
+{
+	width: 60%;
+	float: left;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	margin-right: 0px;
+	padding: 13px 0px 0px 0px;
+}
+#section-user-comments .comment-navigation-header
+{
+      float: left;
+      clear: left;
+      width: 15%;
+      font-size: 10px;
+      vertical-align: top;
+      margin-right: 0px;
+      margin-bottom: 7px;
+}
+#section-user-comments a.comment-navigation-header
+{
+	float: none;
+    margin-bottom: 0px;
+}
+#section-user-comments .comment-navigation-header:hover
+{
+	color: #333333;
+}
+#section-user-comments div.comment-header-add
+{
+      width: 25%;
+      font-size: 10px;
+      text-align: right;
+      margin-bottom: 10px;
+      float: right;
+      padding: 4px;
+}
+#section-user-comments a.comment-header-add
+{
+      background-color: #f7f7f7;
+      border: solid 1px #cacaca;
+      padding: 3px;
+      font-size: 10px;
+      color: #a4a4a4;
+      font-weight: bold;
+      float: none;
+      margin: 0px;
+}
+
+#section-user-comments a.comment-header-add:link
+{
+      background-color: #f7f7f7;
+      border: solid 1px #cacaca;
+      padding: 3px;
+      font-size: 10px;
+      color: #a4a4a4;
+      font-weight: bold;
+      float: none;
+      margin: 0px;
+}
+
+#section-user-comments a.comment-header-add:hover
+{
+	background-color: #f7f7f7;
+    border: solid 1px #9a9a9a;
+    padding: 3px;
+    font-size: 10px;
+	color: #4a4a4a;
+	font-weight: bold;
+    float: none;
+    margin: 0px;
+}
+#section-user-comments div.comment-author-info
+{
+	float: left;
+	width: auto;
+	clear: both;
+}
+#section-user-comments span.comment-author-info
+{
+	color: #000000;
+	font-weight: bold;
+	font-size: 12px !important;
+}
+#section-user-comments span.comment-timestamp
+{
+      font-size: 12px;
+      color: #a4a4a4;
+}
+#section-user-comments .comment-item-rating
+{
+	font-size: 12px !important;
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+
+/* @group My Group */
+
+
+
+/* @end */
+#section-user-comments .rating-item 
+{
+	font-size: 12px !important;
+	font-weight: bold;
+}
+#section-user-comments .rating-user 
+{
+	padding-right: 5px;
+}
+#section-user-comments .comment-user-rating
+{
+      float: right;
+      width: 29%;
+      text-align: right;
+      font-weight: bold;
+}
+#section-user-comments .comment-user-rating input{
+	margin: 0px;
+}
+
+
+#section-user-comments .comment-text
+{
+      padding: 6px 2px 2px;
+      color: #333333;
+      clear: both;
+		font-size: 12px;
+}
+#section-user-comments .comment-list-footer 
+{
+	width: 755px;
+	padding: 5px;
+	margin: 5px;
+	clear: both;
+}
+#section-user-comments a.comment-list-footer-left 
+{
+	background-color: #f7f7f7;
+	border: solid 1px #cacaca;
+	border-top: solid 1px #cacaca;
+	padding: 3px;
+	margin: 0px 0px 5px 0px;
+	color: #a4a4a4;
+	font-weight: bold;
+	width: auto;
+	padding: 3px;
+    color: #a4a4a4;
+    font-size: 11px;
+	float: right;
+}
+#section-user-comments a.comment-list-footer-left:hover
+{
+	border: solid 1px #9c9c9c;
+	color: #494949;
+}
+#section-user-comments .comment-footer
+{
+      width: 100%;
+      font-size: 11px;
+      /*padding-bottom: 5px;*/
+      padding-top: 4px;
+      height: 15px;
+      line-height: normal;
+}
+#section-user-comments .comment-footer-right,
+#section-user-comments .comment-footer-right-show-hide-replies
+{
+      float: right;
+}
+#section-user-comments .comment-footer-left,
+#section-user-comments .comment-footer-left-show-hide-replies
+{
+      float: left;
+}
+#section-user-comments a.comment-footer-left,
+#section-user-comments a.comment-footer-right,
+#section-user-comments a.comment-footer-left-show-hide-replies,
+#section-user-comments a.comment-footer-right-show-hide-replies
+{
+	background-color: #f7f7f7;
+	padding: 3px;
+	color: #a4a4a4;
+	font-weight: bold;
+	width: auto;
+	text-decoration: none;
+	padding-left: 6px;
+}
+#section-user-comments a.comment-footer-left-show-hide-replies,
+#section-user-comments a.comment-footer-right-show-hide-replies
+{
+	border-right: solid 1px #cacaca;
+	padding-left: 0px;
+	padding-right: 6px;
+}
+#section-user-comments span.comment-footer-left,
+#section-user-comments span.comment-footer-right,
+#section-user-comments span.comment-footer-left-show-hide-replies,
+#section-user-comments span.comment-footer-right-show-hide-replies
+{
+	padding: 3px;
+    color: #a4a4a4;
+    font-size: 11px;
+}1
+
+#section-user-comments a.comment-footer-left:link,
+#section-user-comments a.comment-footer-right:link,
+#section-user-comments a.comment-footer-left:active,
+#section-user-comments a.comment-footer-right:active,
+#section-user-comments a.comment-footer-left:visited,
+#section-user-comments a.comment-footer-right:visited,
+#section-user-comments a.comment-footer-left-show-hide-replies:link,
+#section-user-comments a.comment-footer-right-show-hide-replies:link,
+#section-user-comments a.comment-footer-left-show-hide-replies:active,
+#section-user-comments a.comment-footer-right-show-hide-replies:active,
+#section-user-comments a.comment-footer-left-show-hide-replies:visited,
+#section-user-comments a.comment-footer-right-show-hide-replies:hover
+{
+}
+
+#section-user-comments a.comment-footer-left:hover,
+#section-user-comments a.comment-footer-right:hover,
+#section-user-comments a.comment-footer-left-show-hide-replies:hover,
+#section-user-comments a.comment-footer-right-show-hide-replies:hover
+{
+	color: #494949;
+}
+
+#section-user-comments .plain-text
+{
+	padding: 5px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	position: relative;
+	clear: left;
+	width: 500px;
+}
+#section-user-comments input.form-button
+{
+	background-color: #f7f7f7;
+	border: solid 1px #cacaca;
+	border-top: solid 1px #cacaca;
+	padding: 3px;
+	color: #a4a4a4;
+	font-weight: bold;
+	width: auto;
+	padding: 3px;
+    color: #a4a4a4;
+    font-size: 11px;
+}
+#section-user-comments input.form-button:hover
+{
+	border: solid 1px #9c9c9c;
+	color: #494949;
+}
+
+#Products_Content_Loader_Image{
+	float: left;
+	width: auto;
+}
+
+#gibson-custom-pager
+{
+	clear: both;
+	float: left;
+	margin: 10px 5px 10px 5px;
+}
+#gibson-custom-pager a:link{text-decoration: none; color: #5f5f5f; }
+#gibson-custom-pager a:visited{text-decoration: none; color: #5f5f5f; }
+#gibson-custom-pager a:active{text-decoration: none; color: #5f5f5f; }
+#gibson-custom-pager a:hover{color: #333333; }
+
+#gibson-custom-pager #gibson-custom-page-numbers
+{
+	margin: auto;
+	float: left;
+	clear: none;
+	text-align: center;
+	width: 440px;
+	display: inline-table;
+}
+#gibson-custom-pager .navigation-link-first,
+#gibson-custom-pager .navigation-link-back,
+#gibson-custom-pager .navigation-link-next,
+#gibson-custom-pager .navigation-link-last
+{
+	margin: 0px;
+	float: left;
+	text-align: center;
+	clear: none;
+	width: 80px;
+}
+#gibson-custom-pager #gibson-custom-page-numbers .page-number 
+{
+	display: inline;
+	width: auto;
+	text-align: center;
+}
+#gibson-custom-pager #gibson-custom-page-numbers .page-number a
+{
+	padding: 3px 5px 3px 5px ;
+	margin: 5px;
+	border: 1px solid #d6d6d6;
+}
+
+#gibson-custom-pager #gibson-custom-page-numbers .page-number a.page-selected{
+	color: #7c7c7c;
+	border: 1px solid #d1d1d1;
+	background-color: #e6e6e6;
+}
