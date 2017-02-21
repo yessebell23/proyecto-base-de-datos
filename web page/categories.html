@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Lyom Music Store | Checkout :: w3layouts</title>
+<title>Lyom Music Store | Experiance :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -46,7 +46,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
         });
      </script>
- </head>
+    <!-- light-box -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+   <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
+</head>
 <body>
 	<div class="header">
 		<div class="container">
@@ -59,17 +72,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-<<<<<<< HEAD
+<<<<<<< HEAD:web page/categories.html
                                 
 						    	<li class="current"><a href="categories.html">Shop</a></li>
-						    	<li><a href="shop.html">About Us</a></li>
-								<li><a href="contact.html">Contact</a></li>							
-=======
 						    	<li><a href="shop.html">Shop</a></li>
-						    	<li><a href="experiance.html">Experiance</a></li>
 								<li><a href="contact.html">Contact</a></li>		
                                 <li><a href="about.html">About Us</a></li>
->>>>>>> Leilanie's-Branch-BD
+>>>>>>> Leilanie's-Branch-BD:web page/experiance.html
 								<div class="clear"></div>
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
@@ -93,7 +102,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
-				    <ul class="icon1 sub-icon1 profile_img">
+				   <ul class="icon1 sub-icon1 profile_img">
 					 <li><a class="active-icon c1" href="#"> </a>
 						<ul class="sub-icon1 list">
 						  <div class="product_control_buttons">
@@ -102,6 +111,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  </div>
 						   <div class="clear"></div>
 						  <li class="list_img"><img src="images/1.jpg" alt=""/></li>
+						  <li class="list_desc"><h4><a href="#">velit esse molestie</a></h4><span class="actual">1 x
+                          $12.00</span></li>
 						  <div class="login_buttons">
 							 <div class="check_button"><a href="checkout.html">Check out</a></div>
 							 <div class="login_button"><a href="login.html">Login</a></div>
@@ -120,10 +131,89 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      <div class="main">
       <div class="shop_top">
 		<div class="container">
-			<h4 class="title">Shopping cart is empty</h4>
-			<p class="cart">You have no items in your shopping cart.<br>Click<a href="index.html"> here</a> to continue shopping</p>
-	     </div>
+			<div class="row ex_box">
+				<h3 class="m_2">Categories</h3>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="shopPiano.html" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/keyboard.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Pianos &amp; Keyboards
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="shopGuitar.html" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/electricGuitar.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Guitars
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="shopBassGuitar.html" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/bassGuitar.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Bass Guitars
+					</div>
+				</a></div>
+				</div>
+		    </div>
+<!--
+		    <div class="row ex_box">
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e4.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e5.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e6.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e6.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+		    </div>
+		    <div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e7.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e7.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e8.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e8.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e9.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e9.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+			   </div>
+		    </div>
+		 </div>
 	   </div>
+-->
 	  </div>
 	  <div class="footer">
 			<div class="container">
