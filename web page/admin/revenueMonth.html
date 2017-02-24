@@ -8,8 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    
+<!--    for the tabs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <title>Lyiom Admin - Returns</title>
+    <title>Lyiom Admin - Sales</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +39,7 @@
 
     <div id="wrapper">
 
-                     <!-- Navigation -->
+                          <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -79,21 +85,21 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#reports"><i class="fa fa-fw fa-table"></i> Reports <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#reports"><i class="fa fa-fw fa-arrows-v"></i> Reports <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="reports" class="collapse">
                             <li>
-                                <a href="sales_by_product.html">Sales</a>
+                                <a href="sales.html">Sales</a>
                             </li>
                             <li>
                                 <a href="returns.html">Returns</a>
                             </li>
                             <li>
-                                <a href="revenue.html">Renueves</a>
+                                <a href="revenue.html">Revenues</a>
                             </li>
                         </ul>
                     </li>
                      <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#admins"><i class="fa fa-fw fa-edit"></i> Admins <i class="fa fa-fw fa-caret-down"></i></a>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#admins"><i class="fa fa-fw fa-arrows-v"></i> Admins <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="admins" class="collapse">
                             <li>
                                 <a href="view_admins.html">View administrators</a>
@@ -114,26 +120,31 @@
             <div class="container-fluid">
 
                 <!-- Page Heading -->
-                 <div class="row">
+                <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Returns
+                            Revenues
                             
                         </h1>
                         
                         <div class="container">
                                   
+                                  <ul class="nav nav-tabs">
+                                    <li class="active"><a href="revenue.html">Total Revenue</a></li>
+                                    <li><a href="sales_by_product.html">Total Revenue - Grouped</a></li>
+                                  </ul>
+                                  <br>
                         
                         
                         <ol class="breadcrumb">
-                            <li class="active">
-                                <i class="fa fa-table"></i><a href="returns.html">Daily Report</a>
+                            <li >
+                                <i class="fa fa-table"></i><a href="revenue.html">Daily Report</a>
                             </li>
                             <li>
-                                <i class="fa fa-table"></i> <a href="returnsWeek.html">Weekly Report</a>
+                                <i class="fa fa-table"></i> <a href="revenueWeek.html">Weekly Report</a>
                             </li>
-                            <li >
-                                <i class="fa fa-table"></i> <a href="returnsMonth.html">Monthly Report</a>
+                            <li class="active">
+                                <i class="fa fa-table"></i> <a href="revenueMonth.html">Monthly Report</a>
                             </li>
                         </ol>
   
@@ -144,19 +155,17 @@
 
                 <div class="row">
                     <div class="col-lg-6">
-                        <h3>Dailys Returns</h3>
+                        <h3>Monthly Revenue</h3>
+<!--
                              <div class="table-responsive">
                             <table class="table table-hover">
                                 <thead>
                                     <tr>
-                                        <th>Product</th>
+                                        <th>Page</th>
                                         <th>ID</th>
-                                        <th>Puch Date</th>
-                                        <th>Return Date</th>
-                                        <th>Paymwnt Method</th>
-                                        <th>Amouts resverd</th>
-                                        <th>Almouts</th>
-                                        
+                                        <th>Date</th>
+                                        <th>Price</th>
+                                        <th>Amout</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -164,25 +173,18 @@
                                         <td>Guitar01</td>
                                         <td>0110</td>
                                         <td>31/12/17</td>
-                                        <td>28/2/18</td>
-                                        <td>visa</td>
-                                        <td>$582.23</td>
+                                        <td>$321.33</td>
+                                        <td>$389.33</td>
                                     </tr>
-                                    <tr>
-                                        <td>Guitar01</td>
-                                        <td>0110</td>
-                                        <td>31/12/17</td>
-                                        <td>28/2/18</td>
-                                        <td>visa</td>
-                                        <td>$582.23</td>
-                                    </tr>
-                        
+                              
                                 </tbody>
                             </table>
                         </div>
+-->
                       
                     </div>
-                    
+                   
+                   
                 </div>
                 <!-- /.row -->
 
