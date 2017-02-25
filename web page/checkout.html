@@ -59,17 +59,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
-<<<<<<< HEAD
+
                                 
-						    	<li class="current"><a href="categories.html">Shop</a></li>
-						    	<li><a href="shop.html">About Us</a></li>
-								<li><a href="contact.html">Contact</a></li>							
-=======
-						    	<li><a href="shop.html">Shop</a></li>
-						    	<li><a href="experiance.html">Experiance</a></li>
+						    	<li class="current"><a href="categories.html">Shop</a></li>					
 								<li><a href="contact.html">Contact</a></li>		
                                 <li><a href="about.html">About Us</a></li>
->>>>>>> Leilanie's-Branch-BD
 								<div class="clear"></div>
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
@@ -101,7 +95,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						  		<a href="#"><img src="images/close_edit.png" alt=""/></a>
 						  </div>
 						   <div class="clear"></div>
-						  <li class="list_img"><img src="images/1.jpg" alt=""/></li>
 						  <div class="login_buttons">
 							 <div class="check_button"><a href="checkout.html">Check out</a></div>
 							 <div class="login_button"><a href="login.html">Login</a></div>
@@ -120,12 +113,43 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      <div class="main">
       <div class="shop_top">
 		<div class="container">
-			<h4 class="title">Shopping cart is empty</h4>
-			<p class="cart">You have no items in your shopping cart.<br>Click<a href="index.html"> here</a> to continue shopping</p>
+			<h4 class="title">You have two items in your shopping cart.</h4>
+            <p class="your cart">Your Cart:</p>
+            
+            <table id=mytable>
+            <table style="width:100%">
+                <tr>  
+                <th>    </th>
+                <th>Item</th>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><button onclick="myFunction()">Delete</button></td>
+                <td><img src="images/rolandKeyboard.jpg"</td>
+                <td>Roland Keyboard</td>
+                <td>2</td>
+                <td>$345.00</td>
+            </tr>
+            <tr>
+                <td><button onclick="myFunction()">Delete</button></td>
+                <td><img src="images/gbillymorr.jpg"</td>
+                <td>Gibson Billy Morrison Guitar</td>
+                <td>1</td>
+                <td>$1250.00</td>
+            </tr>
+
+                <script>
+                function myFunction() {
+                document.getElementById("myTable").deleteRow(0);
+                }
+                </script>
+            </table>
 	     </div>
 	   </div>
 	  </div>
-	  <div class="footer">
+	 	  <div class="footer">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -133,24 +157,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4>Products</h4>
 							<li><a href="#">Pianos</a></li>
 							<li><a href="#">Guitars</a></li>
+                            <li><a href="#">Bass Guitars</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<ul class="footer_box">
 							<h4>About</h4>
-							<li><a href="#">Brands</a></li>
-							<li><a href="#">Catalog Request/Download</a></li>
+							<li><a href="#">About Us</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3">
 						<ul class="footer_box">
 							<h4>Customer Support</h4>
-                            <li><a href="#">About Us</a></li>
-							<li><a href="#">Contact Us</a></li>
-							<li><a href="#">Shipping and Order Tracking</a></li>
-							<li><a href="#">Easy Returns</a></li>
-							<li><a href="#">Warranty</a></li>
-							<li><a href="#">Replacement Parts</a></li>
+                            <li><a href="#">Create an account</a></li>
+							<li><a href="#">Cart</a></li>
+							<li><a href="#">Profile</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3">
@@ -175,6 +196,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="row footer_bottom">
 				    <div class="copy">
 			           <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+                        <p>© 2017 edited by by <a href="http://w3layouts.com" target="_blank">Leilanie,Yessebell,Mario,Oscar</a></p>
 		            </div>
 					  <dl id="sample" class="dropdown">
 				        <dt><a href="#"><span>Change Region</span></a></dt>
