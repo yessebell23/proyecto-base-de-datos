@@ -5,55 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
-
 <html>
 <head>
-
-    <style>
-.dropbtn {
-    background-color: #000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-/*    position: relative;*/
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-/*    position:relative;*/
-    background-color: #000;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0.2,0,0,0);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 16px 12px;
-    text-decoration: none;
-    display:inherit;
-}
-
-.dropdown-content a:hover {background-color: #001}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #000;
-}
-</style>
-    
-    
-    
-<title>Lyom Music Store | Shop :: w3layouts</title>
+<title>Lyom Music Store | Experiance :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -92,6 +46,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             });
         });
      </script>
+    <!-- light-box -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+   <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -105,11 +72,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
 						    <ul class="nav" id="nav">
+
                                 
-						   
-                                <li><a href="categories.html">Shop</a></li>
-						    	<li><a href="about.html">About Us</a></li>	
-<!--								<li><a href="contact.html">Contact</a></li>-->
+						    	<li class="current"><a href="categories.html">Shop</a></li>
+<!--								<li><a href="contact.html">Contact</a></li>		-->
+                                <li><a href="about.html">About Us</a></li>
+
 								<div class="clear"></div>
 							</ul>
 							<script type="text/javascript" src="js/responsive-nav.js"></script>
@@ -119,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	            <div class="header_right">
 	    		  <!-- start search-->
 <!--
-				  <div class="search-box">
+				   <div class="search-box">
 							<div id="sb-search" class="sb-search">
 								<form>
 									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
@@ -127,17 +95,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<span class="sb-icon-search"> </span>
 								</form>
 							</div>
--->
 						</div>
-						<!----search-scripts---->
-<!--
+						--search-scripts--
 						<script src="js/classie.js"></script>
 						<script src="js/uisearch.js"></script>
 						<script>
 							new UISearch( document.getElementById( 'sb-search' ) );
 						</script>
--->
-				   <ul class="icon1 sub-icon1">
+-->                     <ul class="icon1 sub-icon1">
 					 <li><a class="active-icon c1" href="#"> </a>
 						<ul class="sub-icon1 list">
                             <center> <h2 > Welcome to LYOM music store</h2></center>
@@ -157,107 +122,95 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	      </div>
 		 </div>
 	    </div>
-     <div>
-         <div class="dropdown" class="header_right">
-                 <button class="dropbtn" alt="">Sort</button>
-                  <div class="dropdown-content">
-                    <a href="#">lowest to highest price</a>
-                    <a href="#">highest to lowest price</a>
-                   
-                  </div>
-         </div>
-        
+	  </div>
+     <div class="main">
+      <div class="shop_top">
 		<div class="container">
-            <h1>Acoustic Pianos</h1>
-			<div class="row shop_box-top">
-				<div class="col-md-3 shop_box"><a href="single_yp.html">
-					<img src="images/yamahaPared.jpg" class="img-responsive" alt=""/>
-					<span class="sale-box">
-<!--						<span class="sale-label">Sale!</span>-->
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">Wall Piano</a></h3>
-						<p> Yamaha</p>
-						<span class="reducedfrom">$500.00</span>
-						<span class="actual">$175.00</span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#">Add To Cart</a></li>
-							<li class="shop_btn"><a href="#">Read More</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
+			<div class="row ex_box">
+				<h3 class="m_2">Bass Guitars</h3>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="#" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/bassGuitarEl" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Electric Bass Guitars 
+					</div>
 				</a></div>
-				<div class="col-md-3 shop_box"><a href="single_yv.html">
-					<img src="images/yamahaVertical.jpg" class="img-responsive" alt=""/>
-					<span class="new-box">
-<!--						<span class="new-label">New</span>-->
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">Vertical Piano</a></h3>
-						<p>Yamaha</p>
-						<span class="actual">$250.00</span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#">Add To Cart</a></li>
-							<li class="shop_btn"><a href="#">Read More</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="#" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/bassGuitarAc.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Acoustic Bass Guitars
+					</div>
 				</a></div>
-				<div class="col-md-3 shop_box"><a href="single_yc.html">
-					<img src="images/yamahaCola.jpg" class="img-responsive" alt=""/>
-					<span class="sale-box">
-<!--						<span class="sale-label">Sale!</span>-->
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">Cola Piano</a></h3>
-						<p>Yamaha</p>
-						<span class="reducedfrom">$1000.00</span>
-						<span class="actual">$750.00</span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#">Add To Cart</a></li>
-							<li class="shop_btn"><a href="#">Read More</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
+				</div>
+<!--
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="shopBassGuitar.html" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/bassGuitar.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Bass Guitars
+					</div>
 				</a></div>
-			<div class="row">
-				<div class="col-md-3 shop_box"><a href="single_rv.html">
-					<img src="images/rolandVertical.jpg" class="img-responsive" alt=""/>
-					<span class="new-box">
-<!--						<span class="new-label">New</span>-->
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">V-Piano</a></h3>
-						<p>Roland</p>
-						<span class="actual">$375.00</span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#">Add To Cart</a></li>
-							<li class="shop_btn"><a href="#">Read More</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
+				</div>
+-->
+		    </div>
+<!--
+		    <div class="row ex_box">
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e4.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e4.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
 				</a></div>
-                <div class="col-md-3 shop_box"><a href="single_sc.html">
-					<img src="images/suzukicola.jpg" class="img-responsive" alt=""/>
-					<span class="sale-box">
-<!--						<span class="sale-label">Sale!</span>-->
-					</span>
-					<div class="shop_desc">
-						<h3><a href="#">Digital Baby Grand Piano</a></h3>
-						<p>Suzuki</p>
-						<span class="reducedfrom">$1250.00</span>
-						<span class="actual">$1100.00</span><br>
-						<ul class="buttons">
-							<li class="cart"><a href="#">Add To Cart</a></li>
-							<li class="shop_btn"><a href="#">Read More</a></li>
-							<div class="clear"> </div>
-					    </ul>
-				    </div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e5.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e5.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
 				</a></div>
-                <div class="row">                     
-			</div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e6.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e6.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+		    </div>
+		    <div class="row ex1_box">
+			   <div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e7.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e7.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e8.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e8.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+				</div>
+				<div class="col-md-4 team1">
+				<div class="img_section magnifier2">
+				  <a class="fancybox" href="images/e9.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="images/e9.jpg" class="img-responsive" alt=""><span> </span>
+					<div class="img_section_txt">
+						Duis aute irure dolor
+					</div>
+				</a></div>
+			   </div>
+		    </div>
 		 </div>
 	   </div>
+-->
 	  </div>
 	  <div class="footer">
 			<div class="container">
@@ -308,4 +261,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 </body>	
-</html>
+</html> 
